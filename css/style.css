@@ -8,14 +8,15 @@ body {
 }
 
 .navbar {
-  margin-left: 400px;
+  margin-left: 25%;
+  margin-top: 10px;
   }
   
 .navbar ul li {
   float: left;
   text-transform: uppercase;
   color: #f4f4f4;
-  font-size: 21px;
+  font-size: 26px;
   padding: 10px 30px;
   font-weight: 600;
 }
@@ -30,9 +31,12 @@ body {
   clear: left;
 }
 
+/* Boxes utility */
+
 .text_box {
   text-transform: uppercase;
   font-weight: 500;
+  color: #333;
   }
   
   .text_box p {
