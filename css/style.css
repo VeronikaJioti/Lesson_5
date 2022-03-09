@@ -8,10 +8,10 @@ body {
 }
 
 .navbar {
-  margin-left: 25%;
-  margin-top: 10px;
+  width: 850px;
+  margin: 0 auto;
   }
-  
+ 
 .navbar ul li {
   float: left;
   text-transform: uppercase;
@@ -22,16 +22,22 @@ body {
 }
 
 .navbar img {
-  float: left;
+  float: right;
   width: 200px;
+  margin-top: 20px;
   margin-bottom: 70px;
    }
 
 .clear {
-  clear: left;
+  clear: both;
 }
 
 /* Boxes utility */
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
 
 .text_box {
   text-transform: uppercase;
